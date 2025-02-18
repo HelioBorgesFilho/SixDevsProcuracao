@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .login {
+    width: 500px;
+    height: 400px;
+    background-color: #583DE9;
+    border-radius: 50px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.login .login-sixdevs {
+    font-size: 25px;
+    margin-top: 25px;
+}
+
+.login .login-info,
+.login-access , .button-enter{
+    display: flex;
+    margin-left: 70px;
+
+}
+
+.login-info .login-user {
+    margin-top: 40px;
+}
+
+.login-info .login-passwor {
+    margin-top: 20px;
+
+}
+
+.login .login-access .user {
+    margin-top: 5px;
+    width: 350px;
+    height: 45px;
+    border-radius: 8px;
+}
+
+.login .login-access .password {
+    margin-top: 5px;
+    width: 350px;
+    height: 45px;
+    border-radius: 8px;
+}
+
+.login .change-password {
+    margin-left: 205px;
+    font-size: 15px;
+    margin-top: 3px;
+}
+
+.login .button-enter{
+    margin-top: 20px;
+    width: 120px;
+    height: 37px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+.login .button-register{
+    
+    margin-left: 200px;
+    width: 160px;
+    height: 37px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+}
