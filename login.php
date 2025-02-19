@@ -12,7 +12,7 @@
 
     <div class="container">
 
-        <div class="login">
+        <div class="login button">
 
             <div class="login-sixdevs">SixDevs</div>
 
@@ -38,13 +38,23 @@
 
                 <div class="change-password">Esqueci a minha senha</div>
 
-                <button class="button-enter">Entrar</button>                
+                <div class="buttons">
+
+                    <span class="button-enter">
+                        <button  >Entrar</button>
+                    </span>
+
+                    <span class="register-button">
+                        <button>Registrar-me</button>
+                    </span>
+
+                </div>
 
             </form>
 
-            <button class="button-register">Registrar-me</button>             
-
         </div>
+
+    </div>
 
     </div>
 

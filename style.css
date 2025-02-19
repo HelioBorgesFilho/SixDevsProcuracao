@@ -1,9 +1,15 @@
+@font-face {
+    font-family: 'roboto-thin';
+    src: url('./public/font/roboto/Roboto-Light.ttf');
+}
+
 * {
     margin: 0;
     padding: 0;
 }
 
 .container {
+    font-family: 'roboto-thin';
     display: flex;
     height: 100vh;
     justify-content: center;
@@ -13,19 +19,21 @@
 .container .login {
     width: 500px;
     height: 400px;
-    background-color: #583DE9;
+    background: linear-gradient(to top, #3D2FA5, #4835C0, #5039D4, #5B3EEF);
     border-radius: 50px;
     color: aliceblue;
     text-align: center;
+    box-shadow:  0px 4px 15px 0px rgb(60, 60, 60);
 }
 
 .login .login-sixdevs {
-    font-size: 25px;
+    font-size: 30px;
     margin-top: 25px;
 }
 
 .login .login-info,
-.login-access , .button-enter{
+.login-access,
+.button-enter {
     display: flex;
     margin-left: 70px;
 
@@ -45,6 +53,8 @@
     width: 350px;
     height: 45px;
     border-radius: 8px;
+    border: #583DE9;
+    box-shadow:  0px 4px 15px 0px rgb(60, 60, 60);
 }
 
 .login .login-access .password {
@@ -52,6 +62,12 @@
     width: 350px;
     height: 45px;
     border-radius: 8px;
+    border: #583DE9;
+    box-shadow:  0px 4px 15px 0px rgb(60, 60, 60);
+}
+
+.buttons {
+    display: flex;
 }
 
 .login .change-password {
@@ -60,21 +76,157 @@
     margin-top: 3px;
 }
 
-.login .button-enter{
+.login .button-enter button {
     margin-top: 20px;
     width: 120px;
     height: 37px;
     border-radius: 8px;
     align-items: center;
     justify-content: center;
+    background-color: white;
+    border: #583DE9;
+    box-shadow:  0px 4px 15px 0px rgb(60, 60, 60);
 }
 
-.login .button-register{
-    
-    margin-left: 200px;
-    width: 160px;
+.login .register-button button {
+    margin-top: 20px;
+    width: 150px;
     height: 37px;
     border-radius: 8px;
+    margin-left: 82px;
     align-items: center;
     justify-content: center;
+    background-color: white;
+    border: #583DE9;
+    box-shadow:  0px 4px 15px 0px rgb(60, 60, 60);
 }
+
+.seta {
+    /* margin-right: 200px; */
+    display: flex;
+    margin-top: 0px;
+    margin-left: 20px;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+}
+
+.register {
+    font-family: 'roboto-thin';
+    width: 600px;
+    height: 470px;
+    background: linear-gradient(to top, #3D2FA5, #4835C0, #5039D4, #5B3EEF);
+    border-radius: 50px;
+    color: aliceblue;
+    box-shadow:  0px 4px 15px 0px rgb(60, 60, 60);
+}
+
+.register .register-sixdevs {
+    font-size: 30px;
+    margin-right: 220px;    
+    text-align: center;
+}
+
+.register .register-sixdevs p {
+    margin-top: 30px;
+}
+
+.register .name{
+    display: flex;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.register .email,
+.register .password {
+    display: flex;
+    text-align: left;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+.sobre-name,
+.info-confirm-email {
+    margin-left: 20px;
+}
+
+.info-sobre-name,
+.teste,
+.teste2 {
+    margin-left: 20px;
+}
+
+.select-name input {
+    width: 210px;
+    height: 37px;
+    border-radius: 8px;
+    border: #583DE9;
+    box-shadow:  0px 4px 15px 0px rgb(60, 60, 60);
+}
+.sobre-name input {
+    width: 310px;
+    height: 37px;
+    border-radius: 8px;
+    border: #583DE9;
+    box-shadow:  0px 4px 15px 0px rgb(60, 60, 60);
+}
+
+.info-email input {
+    width: 255px;
+    height: 37px;
+    border-radius: 8px;
+    border: #583DE9;
+    box-shadow:  0px 4px 15px 0px rgb(60, 60, 60);
+}
+
+.info-confirm-email input {
+    width: 265px;
+    height: 37px;
+    border-radius: 8px;
+    border: #583DE9;
+    box-shadow:  0px 4px 15px 0px rgb(60, 60, 60);
+}
+
+.info-password input {
+    width: 255px;
+    height: 37px;
+    border-radius: 8px;
+    border: #583DE9;
+    box-shadow:  0px 4px 15px 0px rgb(60, 60, 60);
+}
+
+.info-confirm-password input {
+    width: 265px;
+    height: 37px;
+    border-radius: 8px;
+    border: #583DE9;
+    box-shadow:  0px 4px 15px 0px rgb(60, 60, 60);
+}
+
+.button-register {
+    display: flex;
+    margin-left: 30px;
+    margin-top: 50px;
+    width: 160px;
+    height: 37px;
+    border: #583DE9;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    box-shadow:  0px 4px 15px 0px rgb(60, 60, 60);
+}
+
+
+.gerenciador{  
+    display: flex;
+    width: 100vh;
+    height: 75px;
+    background-color: aqua;
+    border: 1px solid red;
+}
+
+.gerenciador .info{  
+    
+}
+  
