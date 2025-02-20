@@ -33,11 +33,9 @@
             <!-- Isso aqui ocupa a segunda metade da tela -->
             <div class="profile-container">
 
+                <div class="info-profile">
 
-                <div class="info-profile" >
-
-
-                    <div class="profile" >
+                    <div class="profile">
                         <img class="user-img" src="./public/img/circle-user-solid.svg" alt="">
 
                         <p>Name User</p>
@@ -49,7 +47,7 @@
 
         </div>
 
-        <div class="teste">
+        <div class="files">
 
             <div class="information">
                 <div>
@@ -69,8 +67,6 @@
             <div class="box"></div>
 
         </div>
-
-
 
     </div>
 

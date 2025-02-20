@@ -3,6 +3,11 @@
     src: url('./public/font/roboto/Roboto-Light.ttf');
 }
 
+@font-face {
+    font-family: 'roboto-thintwo';
+    src: url('./public/font/roboto/Roboto-Regular.ttf');
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -151,8 +156,8 @@
 }
 
 .info-surname,
-.teste,
-.teste2 {
+.name-email,
+.name-password {
     margin-left: 20px;
 }
 
@@ -221,6 +226,7 @@
 /* MENU */
 .container-manager{
     height: 100vh;
+    font-family: 'roboto-thintwo';
 }
 .manager {
     display: flex;
@@ -262,7 +268,8 @@
 
 .profile{
     text-align: center;
-    margin-top: 10px;
+    margin-top: 13px;
+    font-size: 12px;
 }
 
 .profile-container{
@@ -307,7 +314,7 @@
     height: 100vh;
 }
 
-.teste{
+.files{
     display: flex;
     margin: 0px;
 }

@@ -62,7 +62,7 @@
 
                     <span class="confirm-email">
 
-                        <div class="teste">
+                        <div class="name-email">
                             <label for="">Confirmar email</label>
                         </div>
                         <div class="info-confirm-email">
@@ -86,7 +86,7 @@
                     </span>
 
                     <span class="confirm-password">
-                        <div class="teste2">
+                        <div class="name-password">
                             <label for="">Confirmar senha</label>
                         </div>
                         <div class="info-confirm-password">
