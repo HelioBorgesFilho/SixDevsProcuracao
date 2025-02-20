@@ -23,7 +23,7 @@
     border-radius: 50px;
     color: aliceblue;
     text-align: center;
-    box-shadow:  0px 4px 15px 0px rgb(60, 60, 60);
+    box-shadow: 0px 4px 15px 0px rgb(60, 60, 60);
 }
 
 .login .login-sixdevs {
@@ -43,7 +43,7 @@
     margin-top: 40px;
 }
 
-.login-info .login-passwor {
+.login-info .login-password {
     margin-top: 20px;
 
 }
@@ -54,7 +54,7 @@
     height: 45px;
     border-radius: 8px;
     border: #583DE9;
-    box-shadow:  0px 4px 15px 0px rgb(60, 60, 60);
+    box-shadow: 0px 4px 15px 0px rgb(60, 60, 60);
 }
 
 .login .login-access .password {
@@ -63,7 +63,7 @@
     height: 45px;
     border-radius: 8px;
     border: #583DE9;
-    box-shadow:  0px 4px 15px 0px rgb(60, 60, 60);
+    box-shadow: 0px 4px 15px 0px rgb(60, 60, 60);
 }
 
 .buttons {
@@ -85,7 +85,7 @@
     justify-content: center;
     background-color: white;
     border: #583DE9;
-    box-shadow:  0px 4px 15px 0px rgb(60, 60, 60);
+    box-shadow: 0px 4px 15px 0px rgb(60, 60, 60);
 }
 
 .login .register-button button {
@@ -98,10 +98,10 @@
     justify-content: center;
     background-color: white;
     border: #583DE9;
-    box-shadow:  0px 4px 15px 0px rgb(60, 60, 60);
+    box-shadow: 0px 4px 15px 0px rgb(60, 60, 60);
 }
 
-.seta {
+.return {
     /* margin-right: 200px; */
     display: flex;
     margin-top: 0px;
@@ -118,12 +118,12 @@
     background: linear-gradient(to top, #3D2FA5, #4835C0, #5039D4, #5B3EEF);
     border-radius: 50px;
     color: aliceblue;
-    box-shadow:  0px 4px 15px 0px rgb(60, 60, 60);
+    box-shadow: 0px 4px 15px 0px rgb(60, 60, 60);
 }
 
 .register .register-sixdevs {
     font-size: 30px;
-    margin-right: 220px;    
+    margin-right: 220px;
     text-align: center;
 }
 
@@ -131,7 +131,7 @@
     margin-top: 30px;
 }
 
-.register .name{
+.register .name {
     display: flex;
     text-align: left;
     margin-left: 30px;
@@ -145,12 +145,12 @@
     margin-left: 30px;
 }
 
-.sobre-name,
+.surname,
 .info-confirm-email {
     margin-left: 20px;
 }
 
-.info-sobre-name,
+.info-surname,
 .teste,
 .teste2 {
     margin-left: 20px;
@@ -161,14 +161,15 @@
     height: 37px;
     border-radius: 8px;
     border: #583DE9;
-    box-shadow:  0px 4px 15px 0px rgb(60, 60, 60);
+    box-shadow: 0px 4px 15px 0px rgb(60, 60, 60);
 }
-.sobre-name input {
+
+.surname input {
     width: 310px;
     height: 37px;
     border-radius: 8px;
     border: #583DE9;
-    box-shadow:  0px 4px 15px 0px rgb(60, 60, 60);
+    box-shadow: 0px 4px 15px 0px rgb(60, 60, 60);
 }
 
 .info-email input {
@@ -176,7 +177,7 @@
     height: 37px;
     border-radius: 8px;
     border: #583DE9;
-    box-shadow:  0px 4px 15px 0px rgb(60, 60, 60);
+    box-shadow: 0px 4px 15px 0px rgb(60, 60, 60);
 }
 
 .info-confirm-email input {
@@ -184,7 +185,7 @@
     height: 37px;
     border-radius: 8px;
     border: #583DE9;
-    box-shadow:  0px 4px 15px 0px rgb(60, 60, 60);
+    box-shadow: 0px 4px 15px 0px rgb(60, 60, 60);
 }
 
 .info-password input {
@@ -192,7 +193,7 @@
     height: 37px;
     border-radius: 8px;
     border: #583DE9;
-    box-shadow:  0px 4px 15px 0px rgb(60, 60, 60);
+    box-shadow: 0px 4px 15px 0px rgb(60, 60, 60);
 }
 
 .info-confirm-password input {
@@ -200,7 +201,7 @@
     height: 37px;
     border-radius: 8px;
     border: #583DE9;
-    box-shadow:  0px 4px 15px 0px rgb(60, 60, 60);
+    box-shadow: 0px 4px 15px 0px rgb(60, 60, 60);
 }
 
 .button-register {
@@ -214,19 +215,107 @@
     align-items: center;
     justify-content: center;
     background-color: white;
-    box-shadow:  0px 4px 15px 0px rgb(60, 60, 60);
+    box-shadow: 0px 4px 15px 0px rgb(60, 60, 60);
 }
 
-
-.gerenciador{  
+/* MENU */
+.container-manager{
+    height: 100vh;
+}
+.manager {
     display: flex;
-    width: 100vh;
+    width: 100%;
     height: 75px;
-    background-color: aqua;
-    border: 1px solid red;
+    background-color: #0094DD;
 }
 
-.gerenciador .info{  
-    
+.options {
+    display: flex;
+    width: 100px;
 }
-  
+
+.information{
+    width: 250px;
+    height: 100%;
+    
+    box-shadow: 2px 1px 1px rgb(193, 192, 192);
+}
+
+.container-manager .manager .options{
+    width: 50%;
+}
+
+.manager .options .documents {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    color: white;
+}
+
+.manager .options .add-user,
+.manager .options .info {
+    display: flex;
+    align-items: center;
+    margin-left: 55px;
+    color: white;
+}
+
+.profile{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.profile-container{
+    text-align: right;
+    width: 50%;    
+    margin-right: 10px;
+    color: white;     
+}
+
+
+.info-profile{
+    display: flex; 
+    justify-content: right;
+}
+
+.user-img{
+    
+    width: 30px;
+    height: 30px;
+}
+
+.generate , .signature {
+    display: flex;
+}
+
+.generate img, .signature img{
+    margin-top: 25px;
+    margin-left: 15px;
+    width: 30px;
+    height: 30px;
+}
+
+.generate p, .signature p{
+    margin-top: 36px;
+    margin-left: 10px;
+}
+
+.information {
+    display: flex;
+    display: flex;
+    width: 250px;
+    height: 100vh;
+}
+
+.teste{
+    display: flex;
+    margin: 0px;
+}
+
+.box{
+    display: flex;
+    width: 250px;
+    height: 100vh;
+    margin-left: 8px;  
+    box-shadow: -2px 1px 1px rgb(193, 192, 192);
+}

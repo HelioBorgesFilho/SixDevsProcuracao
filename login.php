@@ -29,7 +29,7 @@
 
                 <div>
                     <div class="login-info">
-                        <label class="login-passwor" for="">Senha</label>
+                        <label class="login-password" for="">Senha</label>
                     </div>
                     <div class="login-access">
                         <input class="password" type="text" require>

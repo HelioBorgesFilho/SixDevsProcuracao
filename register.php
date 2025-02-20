@@ -14,7 +14,7 @@
 
         <div class="register">
 
-            <img class="seta" src="./public/icons/arrow-left-solid.svg" alt="">
+            <img class="return" src="./public/icons/arrow-left-solid.svg" alt="">
 
             <span class="register-sixdevs">
                 <p>SixDevs</p>
@@ -34,12 +34,12 @@
                         </div>
 
                     </span>
-                    <span class="regiter-sobre-name">
+                    <span class="regiter-surname">
 
-                        <div class="info-sobre-name">
+                        <div class="info-surname">
                             <label for="">Sobrenome</label>
                         </div>
-                        <div class="sobre-name">
+                        <div class="surname">
                             <input type="text">
                         </div>
 
@@ -90,7 +90,7 @@
                             <label for="">Confirmar senha</label>
                         </div>
                         <div class="info-confirm-password">
-                            <input class="sobre-name" type="text">
+                            <input class="surname" type="text">
                         </div>
 
                     </span>
