@@ -224,10 +224,11 @@
 }
 
 /* MENU */
-.container-manager{
+.container-manager {
     height: 100vh;
     font-family: 'roboto-thintwo';
 }
+
 .manager {
     display: flex;
     width: 100%;
@@ -240,14 +241,14 @@
     width: 100px;
 }
 
-.information{
+.information {
     width: 250px;
     height: 100%;
-    
+
     box-shadow: 2px 1px 1px rgb(193, 192, 192);
 }
 
-.container-manager .manager .options{
+.container-manager .manager .options {
     width: 50%;
 }
 
@@ -266,43 +267,46 @@
     color: white;
 }
 
-.profile{
+.profile {
     text-align: center;
     margin-top: 13px;
     font-size: 12px;
 }
 
-.profile-container{
+.profile-container {
     text-align: right;
-    width: 50%;    
+    width: 50%;
     margin-right: 10px;
-    color: white;     
+    color: white;
 }
 
 
-.info-profile{
-    display: flex; 
+.info-profile {
+    display: flex;
     justify-content: right;
 }
 
-.user-img{
-    
+.user-img {
+
     width: 30px;
     height: 30px;
 }
 
-.generate , .signature {
+.generate,
+.signature {
     display: flex;
 }
 
-.generate img, .signature img{
+.generate img,
+.signature img {
     margin-top: 25px;
     margin-left: 15px;
     width: 30px;
     height: 30px;
 }
 
-.generate p, .signature p{
+.generate p,
+.signature p {
     margin-top: 36px;
     margin-left: 10px;
 }
@@ -314,15 +318,149 @@
     height: 100vh;
 }
 
-.files{
+.files {
     display: flex;
     margin: 0px;
 }
 
-.box{
+.box {
     display: flex;
     width: 250px;
     height: 100vh;
-    margin-left: 8px;  
+    margin-left: 8px;
     box-shadow: -2px 1px 1px rgb(193, 192, 192);
 }
+
+.popup {
+    background-color: black;
+}
+
+.container-popup {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-popup {
+    width: 600px;
+    height: 400px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.container-popup .info-popup .user .img {
+    display: flex;
+    justify-content: right;
+    width: 100%;
+    height: 30px;
+}
+
+.container-popup .info-popup .user .img .return {
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 30px;
+    height: 30px;
+}
+
+.container-popup .info-popup .user .info .user-img {
+    margin-left: 30px;
+    width: 85px;
+    height: 85px;
+}
+
+.container-popup .info-popup .user {
+    margin-top: 0px;
+    width: 600px;
+    height: 133px;
+    border-radius: 25px 25px 0px 0px;
+    background-color: #0293DD;
+}
+
+.container-popup .info-popup .user .info {
+    display: flex;
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+    align-items: center;
+}
+
+.container-popup .info-popup .user .info .data {
+
+    margin-left: 10px;
+
+}
+
+.container-popup .info-popup .user .info {
+    color: white;
+}
+
+.container-popup .info-popup .user .info .name-user {
+    font-size: 20px;
+    font-family: 'roboto-thintwo';
+}
+
+.container-popup .info-popup .user .info .email {
+    font-size: 14px;
+    font-family: 'roboto-thin';
+}
+
+.container-popup .info-popup .user-info .img {
+    display: flex;
+    justify-content: right;
+    width: 100%;
+    height: 30px;
+}
+
+.container-popup .info-popup .user-info .img .edit {
+    margin-right: 20px;
+    margin-top: 17px;
+    width: 30px;
+    height: 30px;
+}
+
+.full-name {
+    display: flex;
+}
+
+.container-popup .info-popup .user-info .name label,
+.container-popup .info-popup .user-info .first-name label,
+.container-popup .info-popup .user-info .surname label,
+.container-popup .info-popup .user-info .email label {
+    color: #0293DD;
+    font-size: 14px;
+    font-family: 'roboto-thintwo';
+}
+
+.container-popup .info-popup .user-info .name {
+    margin-top: 12px;
+    margin-left: 35px;
+}
+
+.container-popup .info-popup .user-info .first-name,
+.container-popup .info-popup .user-info .surname,
+.container-popup .info-popup .user-info .email {
+    margin-top: 20px;
+    margin-left: 35px;
+}
+
+.container-popup .info-popup .user-info .name p,
+.container-popup .info-popup .user-info .first-name p,
+.container-popup .info-popup .user-info .surname p,
+.container-popup .info-popup .user-info .email p {
+    font-size: 16px;
+    font-family: 'roboto-thin';
+}
+
+.container-popup .info-popup .user-info .edit-password {
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    width: 95%;
+    height: 56px;
+    color: #43AAE5;
+    text-decoration: underline;
+    
+}
+
+/* border: 1px solid red; */
